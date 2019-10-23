@@ -73,3 +73,14 @@ ts에서는 클래스가 어떤 속성들을 가져야 하는지 선언해야 �
 > private
 
 즉 interface를 사용하면 ts측면에서 좀 더 안전하다. 그런데 만약 react, expres, node등을 사용하게 된다면 코드에서 class를 사용해야 할 것이다.
+
+## crypto-js
+
+> yarn add crypto-js
+> it allow you to get SHA256 hash result easily
+
+```js
+import * as CryptoJS from "crypto-js";
+
+CryptoJS.SHA256(index + previousHash + timestamp + data).toStrin();
+```
