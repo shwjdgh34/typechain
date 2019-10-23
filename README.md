@@ -22,3 +22,6 @@ node.js를 평범하게 사용하고 다양한 걸 import 하거나 export할 �
 ## $tsc
 node.js는 typescript를 이해하지 못하기 때문에 일반적인 javascript 코드로 컴파일 하는 작업이 필요하다.
 tsc는 index.ts 파일에 있는 코드를 컴파일 해서 index.js랑 index.js.map을 만들어 준다.
+
+## Typescript
+
