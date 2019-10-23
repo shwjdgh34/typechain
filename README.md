@@ -61,3 +61,15 @@ const sayHi = (person: Human): string => {
   return `hi, im ${person.name}. i am ${person.age} years old. i am ${person.gender}`;
 };
 ```
+
+## class
+
+인터페이스는 js로 컴파일 되지 않는다. 하지만 인터페이스를 js로 넣고 싶을 때가 있을 거다. 그 때는 interface대신 class를 사용한다. class는 코드를 컨트롤 할 수 있게 해준다.
+
+js에서는 클래스의 속성(property)들을 묘사할 필요가 없다. 그냥 클래스를 만들면 되고 어떤 속성들을 가지고 있는지 신경쓰지 않는다.
+ts에서는 클래스가 어떤 속성들을 가져야 하는지 선언해야 한다. 그리고 그런 속성들이 가지고 있는 권한(permission)들도!
+
+> public
+> private
+
+즉 interface를 사용하면 ts측면에서 좀 더 안전하다. 그런데 만약 react, expres, node등을 사용하게 된다면 코드에서 class를 사용해야 할 것이다.
