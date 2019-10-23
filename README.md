@@ -43,3 +43,21 @@ typescript 파일이 저장될 때마다 success 되면 tsc를 실행시켜 comp
 
 2. typed language
    어떤 종류의 변수와 데이터인지 설정을 해줘야 한다.
+
+## Interface
+
+1. Object의 type을 명시하여 준다.
+2. 어떤 Object에 type을 할당 해준다. 이를 통해 코딩을 할 때 에러를 발생시킬 확률이 현저히 낮아진다.
+   > person이라는 object에 Human이라는 type을 할당해줬다.
+
+```js
+interface Human {
+  name: string;
+  age: number;
+  gender: string;
+}
+
+const sayHi = (person: Human): string => {
+  return `hi, im ${person.name}. i am ${person.age} years old. i am ${person.gender}`;
+};
+```
