@@ -5,16 +5,16 @@ blockchain with Typescript. this is for practicing typescript
 ## Contents
 
 - [Typechain](#typechain)
-  _ [Contents](#contents)
-  _ [Output](#output)
-  _ [pakage.json](#pakagejson)
-  _ [tsconfig.json](#tsconfigjson)
-  _ [tsc-watch](#tsc-watch)
-  _ [Typescript](#typescript)
-  _ [Interface](#interface)
-  _ [class](#class)
-  _ [static](#static)
-  _ [crypto-js](#crypto-js)
+  - [Contents](#contents)
+  - [Output](#output)
+  - [pakage.json](#pakagejson)
+  - [tsconfig.json](#tsconfigjson)
+  - [tsc-watch](#tsc-watch)
+  - [Typescript](#typescript)
+  - [Interface](#interface)
+  - [class](#class)
+  - [static](#static)
+  - [crypto-js](#crypto-js)
 
 ## Output
 
